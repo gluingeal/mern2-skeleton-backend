@@ -1,17 +1,23 @@
 {
-  "name": "mern-skeleton",
+  "name": "mern2-skeleton-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "development": "nodemon"
   },
-  "author": "",
+  "author": "Pavel Martínek <gluingeal@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@hot-loader/react-dom": "16.13.0",
-    "express": "4.17.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
     "mongodb": "3.5.5",
+    "mongoose": "^5.12.14",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-hot-loader": "4.12.20"
@@ -22,10 +28,11 @@
     "@babel/preset-react": "7.9.4",
     "babel-loader": "8.1.0",
     "nodemon": "2.0.2",
-    "webpack": "^5.38.1",
+    "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-middleware": "3.7.2",
     "webpack-hot-middleware": "2.25.0",
     "webpack-node-externals": "^3.0.0"
-  }
+  },
+  "repository": "https://github.com/gluingeal/mern2-skeleton-backend.git"
 }
